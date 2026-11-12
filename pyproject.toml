@@ -1,0 +1,12 @@
+[project]
+name = "photolite-api"
+version = "0.1.0"
+description = "Photo Lite API (sample)"
+requires-python = ">=3.12"
+dependencies = ["fastapi==0.115.4"]
+
+[dependency-groups]
+dev = ["pytest==8.3.3", "httpx==0.27.2"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
